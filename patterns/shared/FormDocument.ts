@@ -71,21 +71,19 @@ export class FormDocument implements Context {
     }
 
     public changeToAdminState = (): void => {
-        this.cleanFormDocument();
         this.changeState(new AdminState(this));
     }
 
     public changeToAssistantState = (): void => {
-        this.cleanFormDocument();
         this.changeState(new AssistantState(this));
     }
 
     public changeToGuestState = (): void => {
-        this.cleanFormDocument();
         this.changeState(new GuestState(this));
     }
 
     public changeState = (state: State): void => {
+        this.cleanFormDocument();
         this.state = state;
     }
 

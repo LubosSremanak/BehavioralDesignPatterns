@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
-      <change afterPath="$PROJECT_DIR$/components/AddressInput.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AdminRadioButton.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AssistantRadioButton.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/GuestRadioButton.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SubmitButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mail-input/mail-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/MailInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/name-input/name-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/NameInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/phone-number-input/phone-number-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhoneNumberInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/surname-input/surname-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SurnameInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/mediator/mediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/Mediator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/mediator/person-mediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/observer/observer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/observer/Observer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/State.ts" afterDir="false" />
-    </list>
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="feat: add empty show and hide component methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +108,49 @@
       <option name="project" value="LOCAL" />
       <updated>1664567410056</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor: change to camel case name">
+      <created>1664574656903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574656904</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor: change to camel case name">
+      <created>1664574674567</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574674567</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add radio buttons for change user type + submit button + address input">
+      <created>1664574876576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574876576</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add event listener for input components">
+      <created>1664574916595</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574916595</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor: change to camel case name">
+      <created>1664574945579</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574945579</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add empty show and hide component methods">
+      <created>1664574967052</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574967052</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +189,10 @@
     <MESSAGE value="feat: add event listener for NameInput" />
     <MESSAGE value="fix: change element id" />
     <MESSAGE value="chore: :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: :(" />
+    <MESSAGE value="feat: add radio buttons for change user type + submit button + address input" />
+    <MESSAGE value="feat: add event listener for input components" />
+    <MESSAGE value="refactor: change to camel case name" />
+    <MESSAGE value="feat: add empty show and hide component methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add empty show and hide component methods" />
   </component>
 </project>
