@@ -11,4 +11,6 @@ export abstract class Component {
     public setMediator(mediator: Mediator): void {
         this.mediator = mediator;
     }
+
+    public abstract getValue(): string;
 }

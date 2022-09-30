@@ -6,4 +6,7 @@ export class SurnameInput extends Component {
         super(inputElement);
     }
 
+    getValue(): string {
+        return this.inputElement.value;
+    }
 }

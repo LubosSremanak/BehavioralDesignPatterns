@@ -6,4 +6,8 @@ export class MailInput extends Component {
         super(inputElement);
     }
 
+    getValue(): string {
+        return this.inputElement.value;
+    }
+
 }
