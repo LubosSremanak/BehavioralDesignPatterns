@@ -21,27 +21,76 @@
 <body>
 <div class="main-container d-flex justify-content-center w-100">
     <div class="form shadow d-flex w-100 rounded p-5">
-      <div id="form" class="row g-3">
-          <div class="col-md-6">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" name="name">
-          </div>
-          <div class="col-md-6">
-              <label for="surname" class="form-label">Surname</label>
-              <input type="text" class="form-control" id="surname" name="surname">
-          </div>
-          <div class="col-12">
-              <label for="mail" class="form-label">Mail</label>
-              <input type="text" class="form-control" id="mail" name="mail">
-          </div>
-          <div class="col-12">
-              <label for="phone-number" class="form-label">Phone number</label>
-              <input type="tel" class="form-control" id="phone-number" name="phone-number">
-          </div>
-          <div class="col-12">
-              <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-      </div>
+        <div id="form" class="row g-3">
+            <div class="col-md-6">
+                <label for="name" class="form-label">Name</label>
+                <input type="text"
+                       class="form-control"
+                       id="name"
+                       name="name">
+            </div>
+            <div class="col-md-6">
+                <label for="surname" class="form-label">Surname</label>
+                <input type="text"
+                       class="form-control"
+                       id="surname"
+                       name="surname">
+            </div>
+            <div class="col-12">
+                <label for="mail" class="form-label">Mail</label>
+                <input type="email"
+                       class="form-control"
+                       id="mail"
+                       name="mail">
+            </div>
+            <div class="col-12">
+                <label for="phone-number" class="form-label">Phone number</label>
+                <input type="tel"
+                       class="form-control"
+                       id="phone-number"
+                       name="phone-number">
+            </div>
+            <div class="col-12">
+                <div class="col-12">
+                    <label class="form-label">User type</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="admin-radio-option">Admin</label>
+                    <input class="form-check-input"
+                           type="radio"
+                           name="user-type-radio-option"
+                           id="admin-radio-option"
+                           value="admin" checked>
+                </div>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="assistant-radio-option">Assistant</label>
+                    <input class="form-check-input"
+                           type="radio"
+                           name="user-type-radio-option"
+                           id="assistant-radio-option"
+                           value="assistant">
+                </div>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="guest-radio-option">Guest</label>
+                    <input class="form-check-input"
+                           type="radio"
+                           name="user-type-radio-option"
+                           id="guest-radio-option"
+                           value="guest">
+                </div>
+            </div>
+            <div class="col-12">
+                <input type="text"
+                       class="form-control"
+                       id="address"
+                       name="address"
+                       placeholder="Address"
+                       style="display: none;">
+            </div>
+            <div class="col-12">
+                <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
     </div>
 </div>
 </body>
