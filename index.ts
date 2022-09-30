@@ -9,7 +9,7 @@ const renderer = new Renderer(null, null, document);
 
 const nameInput = new NameInput(renderer.get('name') as HTMLInputElement);
 const surnameInput = new SurnameInput(renderer.get('surname') as HTMLInputElement);
-const mailInput = new MailInput(renderer.get('surname') as HTMLInputElement);
-const phoneNumberInput = new PhoneNumberInput(renderer.get('surname') as HTMLInputElement);
+const mailInput = new MailInput(renderer.get('mail') as HTMLInputElement);
+const phoneNumberInput = new PhoneNumberInput(renderer.get('phone-number') as HTMLInputElement);
 
 const mediator = new PersonMediator(nameInput, surnameInput, mailInput, phoneNumberInput);
