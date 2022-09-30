@@ -19,13 +19,28 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<div class="main-container d-flex justify-content-center w-100 h-100">
-    <div  class="form shadow d-flex w-100 rounded">
-      <div id="form">
-          <input id="name" name="name" type="text">
-          <input id="surname" name="surname" type="text">
-          <input id="mail" name="surname" type="email">
-          <input id="phone-number" name="surname" type="tel">
+<div class="main-container d-flex justify-content-center w-100">
+    <div class="form shadow d-flex w-100 rounded p-5">
+      <div id="form" class="row g-3">
+          <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name">
+          </div>
+          <div class="col-md-6">
+              <label for="surname" class="form-label">Surname</label>
+              <input type="text" class="form-control" id="surname" name="surname">
+          </div>
+          <div class="col-12">
+              <label for="mail" class="form-label">Mail</label>
+              <input type="text" class="form-control" id="mail" name="mail">
+          </div>
+          <div class="col-12">
+              <label for="phone-number" class="form-label">Phone number</label>
+              <input type="tel" class="form-control" id="phone-number" name="phone-number">
+          </div>
+          <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
       </div>
     </div>
 </div>
