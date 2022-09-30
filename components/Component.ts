@@ -12,5 +12,19 @@ export abstract class Component {
         this.mediator = mediator;
     }
 
+    public empty(): void {
+        if (['text', 'tel', 'email'].includes(this.element?.getAttribute('type') as string)) {
+            (this.element as HTMLInputElement).value = '';
+        }
+    }
+
+    public hide(): void {
+        (this.element as HTMLInputElement).style.display = 'none';
+    }
+
+    public show(): void {
+        (this.element as HTMLInputElement).style.display = 'block';
+    }
+
     public abstract getValue(): string;
 }
