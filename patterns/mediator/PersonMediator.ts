@@ -41,6 +41,41 @@ export class PersonMediator implements Mediator {
             this.formDocument.setName(sender.getValue());
         }
 
+        if (sender instanceof SurnameInput && event === 'input') {
+            this.formDocument.setSurname(sender.getValue());
+        }
+
+        if (sender instanceof MailInput && event === 'input') {
+            this.formDocument.setMail(sender.getValue());
+        }
+
+        if (sender instanceof PhoneNumberInput && event === 'input') {
+            this.formDocument.setPhoneNumber(sender.getValue());
+        }
+
+        if (sender instanceof AddressInput && event === 'input') {
+            this.formDocument.setAddress(sender.getValue());
+        }
+
+        if (sender instanceof AdminRadioButton && event === 'change') {
+            this.addressInput.hide();
+            this.formDocument.changeToAdminState();
+        }
+
+        if (sender instanceof AssistantRadioButton && event === 'change') {
+            this.addressInput.hide();
+            this.formDocument.changeToAssistantState();
+        }
+
+        if (sender instanceof GuestRadioButton && event === 'change') {
+            this.addressInput.show();
+            this.formDocument.changeToGuestState();
+        }
+
+        if (sender instanceof SubmitButton && event === 'click') {
+            console.log(this.formDocument.sendForm())
+        }
+
     }
 
 }
