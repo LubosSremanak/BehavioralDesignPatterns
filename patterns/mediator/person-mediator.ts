@@ -5,24 +5,17 @@ import {MailInput} from "../../components/mail-input/mail-input.js";
 import {PhoneNumberInput} from "../../components/phone-number-input/phone-number-input.js";
 
 export class PersonMediator implements Mediator {
+    private formDocument: FormDocument;
 
-    private nameInput: NameInput;
-    private surnameInput: SurnameInput;
-    private mailInput: MailInput;
-    private phoneNumberInput: PhoneNumberInput;
+    constructor(private nameInput: NameInput,
+                private surnameInput: SurnameInput,
+                private mailInput: MailInput,
+                private phoneNumberInput: PhoneNumberInput) {
+        this.formDocument =  new FormDocument();
 
-    constructor(nameInput: NameInput,
-                surnameInput: SurnameInput,
-                mailInput: MailInput,
-                phoneNumberInput: PhoneNumberInput) {
-
-        this.nameInput = nameInput;
         this.nameInput.setMediator(this);
-        this.surnameInput = surnameInput;
         this.surnameInput.setMediator(this);
-        this.mailInput = mailInput;
         this.mailInput.setMediator(this);
-        this.phoneNumberInput = phoneNumberInput;
         this.phoneNumberInput.setMediator(this);
     }
 
