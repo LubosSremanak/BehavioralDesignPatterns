@@ -13,6 +13,6 @@ export class AssistantState implements State {
     }
 
     public sendForm = (): string => {
-        return "Your form was sent to Admin."
+        return `Your form ${this.formDocument.toString()} was sent to Admin.`
     }
 }

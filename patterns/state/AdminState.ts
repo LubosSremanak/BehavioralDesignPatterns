@@ -13,6 +13,6 @@ export class AdminState implements State {
     }
 
     public sendForm = (): string => {
-        return "Your form was saved to database"
+        return `Your form ${this.formDocument.toString()} was saved to database.`;
     }
 }

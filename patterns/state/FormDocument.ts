@@ -92,4 +92,15 @@ export class FormDocument implements Context {
     public sendForm = (): string => {
         return this.state.sendForm();
     }
+
+    public toString = (): string => {
+        const user = {
+            name: this.name,
+            username: this.surname,
+            mail: this.mail,
+            address: this.address,
+            phoneNumber: this.phoneNumber
+        }
+        return `[New User ${JSON.stringify(user)}]`;
+    }
 }

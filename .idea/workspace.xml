@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/state/AdminState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AdminState.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/state/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/FormDocument.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/State.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664548477938</updated>
-      <workItem from="1664548480436" duration="2284000" />
+      <workItem from="1664548480436" duration="3565000" />
     </task>
     <servers />
   </component>

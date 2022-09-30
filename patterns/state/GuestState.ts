@@ -13,6 +13,6 @@ export class GuestState implements State {
     }
 
     public sendForm = (): string => {
-        return "Your form was sent to automatic system, which will control correctness of data."
+        return `Your form ${this.formDocument.toString()} was sent to automatic system, which will control correctness of data.`
     }
 }
