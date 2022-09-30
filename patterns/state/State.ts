@@ -1,4 +1,4 @@
-import {FormDocument} from "./FormDocument.js";
+import {FormDocument} from "../shared/FormDocument";
 
 export interface State {
     sendForm: () => string;

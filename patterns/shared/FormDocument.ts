@@ -1,8 +1,8 @@
 import {Context} from "./Context.js";
-import {State} from "./State.js";
-import {AdminState} from "./AdminState.js";
-import {AssistantState} from "./AssistantState.js";
-import {GuestState} from "./GuestState.js";
+import {State} from "../state/State.js";
+import {AdminState} from "../state/AdminState.js";
+import {AssistantState} from "../state/AssistantState.js";
+import {GuestState} from "../state/GuestState.js";
 
 export class FormDocument implements Context {
     private state: State;
