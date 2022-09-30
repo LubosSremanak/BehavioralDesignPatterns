@@ -1,5 +1,5 @@
 import {State} from "./State.js";
-import {FormDocument} from "./FormDocument";
+import {FormDocument} from "./FormDocument.js";
 
 export class AdminState implements State {
     private readonly formDocument: FormDocument;
