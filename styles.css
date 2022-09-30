@@ -1,0 +1,19 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    background: rgba(247, 248, 252);
+    padding: 20px 50px;
+}
+
+.main-container .form {
+    background: white;
+    max-width: 800px;
+}

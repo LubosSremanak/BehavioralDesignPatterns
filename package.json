@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "name": "behavioraldesignpatterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc-esm"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}

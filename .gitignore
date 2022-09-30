@@ -1,0 +1,8 @@
+# Project exclude paths
+/components/common/component.js
+/components/input/input.js
+/node_modules/
+/patterns/observer/observer.js
+/shared/services/logger.js
+/shared/services/renderer.js
+/index.js
