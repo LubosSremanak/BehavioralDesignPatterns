@@ -1,4 +1,4 @@
-import {Mediator} from "../../patterns/mediator/mediator.js";
+import {Mediator} from "../patterns/mediator/Mediator.js";
 
 export abstract class Component {
     private element?: HTMLElement;

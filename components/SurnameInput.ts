@@ -1,4 +1,4 @@
-import {Component} from "../common/component.js";
+import {Component} from "./Component.js";
 
 export class SurnameInput extends Component {
 

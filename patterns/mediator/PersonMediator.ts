@@ -1,8 +1,8 @@
-import {Mediator} from "./mediator.js";
-import {NameInput} from "../../components/name-input/name-input.js";
-import {SurnameInput} from "../../components/surname-input/surname-input.js";
-import {MailInput} from "../../components/mail-input/mail-input.js";
-import {PhoneNumberInput} from "../../components/phone-number-input/phone-number-input.js";
+import {Mediator} from "./Mediator.js";
+import {NameInput} from "../../components/NameInput.js";
+import {SurnameInput} from "../../components/SurnameInput.js";
+import {MailInput} from "../../components/MailInput.js";
+import {PhoneNumberInput} from "../../components/PhoneNumberInput.js";
 import {FormDocument} from "../shared/FormDocument.js";
 import {Component} from "../../components/common/component.js";
 

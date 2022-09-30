@@ -1,6 +1,6 @@
-import {Component} from "../common/component.js";
+import {Component} from "./Component.js";
 
-export class PhoneNumberInput extends Component {
+export class MailInput extends Component {
 
     constructor(private inputElement: HTMLInputElement) {
         super(inputElement);

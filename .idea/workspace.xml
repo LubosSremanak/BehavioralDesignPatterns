@@ -4,16 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="refactor: move Context to shared folder">
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
+      <change afterPath="$PROJECT_DIR$/components/AddressInput.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AdminRadioButton.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AssistantRadioButton.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/GuestRadioButton.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SubmitButton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mail-input/mail-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/mail-input/mail-input.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/name-input/name-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/name-input/name-input.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/phone-number-input/phone-number-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/phone-number-input/phone-number-input.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/surname-input/surname-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/surname-input/surname-input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mail-input/mail-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/MailInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/name-input/name-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/NameInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/phone-number-input/phone-number-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhoneNumberInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/surname-input/surname-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SurnameInput.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/mediator/person-mediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/person-mediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/mediator/mediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/Mediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/mediator/person-mediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/observer/observer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/observer/Observer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/state/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/State.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/patterns/shared" />
       <recent name="D:\programming\ASOS\BehavioralDesignPatterns\patterns\state" />
     </key>
@@ -68,7 +78,56 @@
       <option name="project" value="LOCAL" />
       <updated>1664553683118</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add abstract getValue method">
+      <created>1664567175433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567175433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="style: add bootstrap layout">
+      <created>1664567215649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567215649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor: add attributes as parameters">
+      <created>1664567273118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567273118</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add action on FormDocument">
+      <created>1664567332400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567332400</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add event listener for NameInput">
+      <created>1664567359355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567359355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: change element id">
+      <created>1664567389854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567389854</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore: :(">
+      <created>1664567410056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567410056</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +138,11 @@
         <option value="$PROJECT_DIR$/patterns/state/AssistantState.js" />
         <option value="$PROJECT_DIR$/patterns/state/State.js" />
         <option value="$PROJECT_DIR$/patterns/state/GuestState.js" />
+        <option value="$PROJECT_DIR$/components/GuestRadioButton.js" />
+        <option value="$PROJECT_DIR$/components/AssistantRadioButton.js" />
+        <option value="$PROJECT_DIR$/components/AdminRadioButton.js" />
+        <option value="$PROJECT_DIR$/components/SubmitButton.js" />
+        <option value="$PROJECT_DIR$/components/AddressInput.js" />
       </list>
     </option>
   </component>
@@ -95,6 +159,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: move Context to shared folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: move Context to shared folder" />
+    <MESSAGE value="feat: add abstract getValue method" />
+    <MESSAGE value="style: add bootstrap layout" />
+    <MESSAGE value="refactor: add attributes as parameters" />
+    <MESSAGE value="feat: add action on FormDocument" />
+    <MESSAGE value="feat: add event listener for NameInput" />
+    <MESSAGE value="fix: change element id" />
+    <MESSAGE value="chore: :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: :(" />
   </component>
 </project>
