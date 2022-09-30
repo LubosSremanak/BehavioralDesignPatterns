@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="feat: add empty show and hide component methods" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2FUZAEfMgALeGMjlECx13gSClXW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "/Users/tomaspopik/PhpstormProjects/BehavioralDesignPatterns/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/patterns/shared" />
+      <recent name="D:\programming\ASOS\BehavioralDesignPatterns\patterns\state" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="" />
+      <created>1664548477938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664548477938</updated>
+      <workItem from="1664548480436" duration="3933000" />
+    </task>
+    <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
+      <created>1664553683118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664553683118</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add abstract getValue method">
+      <created>1664567175433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567175433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="style: add bootstrap layout">
+      <created>1664567215649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567215649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor: add attributes as parameters">
+      <created>1664567273118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567273118</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add action on FormDocument">
+      <created>1664567332400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567332400</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add event listener for NameInput">
+      <created>1664567359355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567359355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: change element id">
+      <created>1664567389854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567389854</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore: :(">
+      <created>1664567410056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567410056</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: change to camel case name">
+      <created>1664574656903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574656904</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor: change to camel case name">
+      <created>1664574674567</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574674567</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add radio buttons for change user type + submit button + address input">
+      <created>1664574876576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574876576</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add event listener for input components">
+      <created>1664574916595</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574916595</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor: change to camel case name">
+      <created>1664574945579</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574945579</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add empty show and hide component methods">
+      <created>1664574967052</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664574967052</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/patterns/state/AdminState.js" />
+        <option value="$PROJECT_DIR$/patterns/state/AssistantState.js" />
+        <option value="$PROJECT_DIR$/patterns/state/State.js" />
+        <option value="$PROJECT_DIR$/patterns/state/GuestState.js" />
+        <option value="$PROJECT_DIR$/components/GuestRadioButton.js" />
+        <option value="$PROJECT_DIR$/components/AssistantRadioButton.js" />
+        <option value="$PROJECT_DIR$/components/AdminRadioButton.js" />
+        <option value="$PROJECT_DIR$/components/SubmitButton.js" />
+        <option value="$PROJECT_DIR$/components/AddressInput.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: move Context to shared folder" />
+    <MESSAGE value="feat: add abstract getValue method" />
+    <MESSAGE value="style: add bootstrap layout" />
+    <MESSAGE value="refactor: add attributes as parameters" />
+    <MESSAGE value="feat: add action on FormDocument" />
+    <MESSAGE value="feat: add event listener for NameInput" />
+    <MESSAGE value="fix: change element id" />
+    <MESSAGE value="chore: :(" />
+    <MESSAGE value="feat: add radio buttons for change user type + submit button + address input" />
+    <MESSAGE value="feat: add event listener for input components" />
+    <MESSAGE value="refactor: change to camel case name" />
+    <MESSAGE value="feat: add empty show and hide component methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add empty show and hide component methods" />
+  </component>
+</project>
