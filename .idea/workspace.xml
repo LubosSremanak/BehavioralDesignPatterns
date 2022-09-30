@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="">
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="refactor: move Context to shared folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mail-input/mail-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/mail-input/mail-input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/name-input/name-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/name-input/name-input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/phone-number-input/phone-number-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/phone-number-input/phone-number-input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/surname-input/surname-input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/surname-input/surname-input.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/AdminState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AdminState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/AssistantState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AssistantState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/Context.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/Context.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/GuestState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/GuestState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/State.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/mediator/person-mediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/person-mediator.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)",
     "ts.external.directory.path": "/Users/tomaspopik/PhpstormProjects/BehavioralDesignPatterns/node_modules/typescript/lib"
   }
 }]]></component>
@@ -61,6 +61,14 @@
       <updated>1664548477938</updated>
       <workItem from="1664548480436" duration="3933000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
+      <created>1664553683118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664553683118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +81,20 @@
         <option value="$PROJECT_DIR$/patterns/state/GuestState.js" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: move Context to shared folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: move Context to shared folder" />
   </component>
 </project>
