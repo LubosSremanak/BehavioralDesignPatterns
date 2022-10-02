@@ -12,7 +12,11 @@ export class SurnameInput extends Component {
         this.mediator?.notify(this, 'input')
     }
 
-    getValue(): string {
+    public setValue(value: string): void {
+        this.inputElement.value = value
+    }
+
+    public getValue(): string {
         return this.inputElement.value;
     }
 }

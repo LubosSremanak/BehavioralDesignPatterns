@@ -12,6 +12,12 @@ export class AssistantRadioButton extends Component {
         this.mediator?.notify(this, 'change')
     }
 
+    public setValue(value: string): void {
+        if (value === 'assistant') {
+            this.inputElement.checked = true;
+        }
+    }
+
     public getValue(): string {
         return this.inputElement.value;
     }
