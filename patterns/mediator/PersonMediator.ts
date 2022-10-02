@@ -86,6 +86,41 @@ export class PersonMediator implements Mediator {
             console.log(this.formDocument.sendForm())
         }
 
+        if (sender instanceof UndoButton && event === 'click') {
+            this.undo();
+        }
+
+    }
+
+    private backup(): void {
+        this.mementos.push(this.formDocument.save());
+    }
+
+    private undo(): void {
+        const memento = this.mementos.pop();
+        if (!memento) {
+            return;
+        }
+        this.formDocument.restore(memento);
+
+        this.nameInput.setValue(this.formDocument.getName())
+        this.surnameInput.setValue(this.formDocument.getSurname())
+        this.mailInput.setValue(this.formDocument.getMail())
+        this.addressInput.setValue(this.formDocument.getAddress())
+        this.phoneNumberInput.setValue(this.formDocument.getPhoneNumber())
+
+        this.adminRadioButton.setValue(this.formDocument.getState().getType())
+        this.assistantRadioButton.setValue(this.formDocument.getState().getType())
+        this.guestRadioButton.setValue(this.formDocument.getState().getType())
+
+    }
+
+    private eraseAllInputs(): void {
+        this.nameInput.setValue("")
+        this.surnameInput.setValue("")
+        this.mailInput.setValue("")
+        this.addressInput.setValue("")
+        this.phoneNumberInput.setValue("")
     }
 
 }
