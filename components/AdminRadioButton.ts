@@ -12,6 +12,12 @@ export class AdminRadioButton extends Component {
         this.mediator?.notify(this, 'change')
     }
 
+    public setValue(value: string): void {
+        if (value === 'admin') {
+            this.inputElement.checked = true;
+        }
+    }
+
     public getValue(): string {
         return this.inputElement.value;
     }

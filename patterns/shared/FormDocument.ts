@@ -3,6 +3,8 @@ import {State} from "../state/State.js";
 import {AdminState} from "../state/AdminState.js";
 import {AssistantState} from "../state/AssistantState.js";
 import {GuestState} from "../state/GuestState.js";
+import {Memento} from "../memento/Memento.js";
+import {FormDocumentMemento} from "../memento/FormDocumentMemento.js";
 
 export class FormDocument implements Context {
     private state: State;
@@ -61,6 +63,14 @@ export class FormDocument implements Context {
         return this.phoneNumber;
     }
 
+    public setState = (state: State): void => {
+        this.state = state;
+    }
+
+    public getState = (): State => {
+        return this.state;
+    }
+
     private cleanFormDocument = (): void => {
         this.name = "";
         this.surname = "";
@@ -101,4 +111,35 @@ export class FormDocument implements Context {
         }
         return `[New User ${JSON.stringify(user)}]`;
     }
+
+    public clone = (): FormDocument => {
+        const clone: FormDocument = new FormDocument();
+        clone.setName(this.getName())
+        clone.setSurname(this.getSurname())
+        clone.setMail(this.getMail())
+        clone.setAddress(this.getAddress())
+        clone.setPhoneNumber(this.getPhoneNumber())
+        clone.setState(this.getState())
+        return clone;
+    }
+
+    public save(): Memento {
+        this.state.setFormDocument(this.clone());
+        return new FormDocumentMemento(this.state);
+    }
+
+    public restore(memento: Memento): void {
+        const newState: State = memento.getState();
+        const newFormDocument: FormDocument = newState.getFormDocument();
+
+        this.setName(newFormDocument.getName())
+        this.setSurname(newFormDocument.getSurname())
+        this.setMail(newFormDocument.getMail())
+        this.setAddress(newFormDocument.getAddress())
+        this.setPhoneNumber(newFormDocument.getPhoneNumber())
+
+        newState.setFormDocument(this);
+        this.state = newState;
+    }
+
 }

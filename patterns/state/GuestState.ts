@@ -2,7 +2,7 @@ import {State} from "./State.js";
 import {FormDocument} from "../shared/FormDocument.js";
 
 export class GuestState implements State {
-    private readonly formDocument: FormDocument;
+    private formDocument: FormDocument;
 
     constructor(formDocument: FormDocument) {
         this.formDocument = formDocument;
@@ -12,7 +12,15 @@ export class GuestState implements State {
         return this.formDocument;
     }
 
+    public setFormDocument(formDocument: FormDocument): void {
+        this.formDocument = formDocument;
+    }
+
     public sendForm = (): string => {
         return `Your form ${this.formDocument.toString()} was sent to automatic system, which will control correctness of data.`
+    }
+
+    getType(): string {
+        return "guest";
     }
 }

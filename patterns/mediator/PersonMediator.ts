@@ -1,4 +1,5 @@
 import {Mediator} from "./Mediator.js";
+import {UndoButton} from "../../components/UndoButton.js";
 import {NameInput} from "../../components/NameInput.js";
 import {SurnameInput} from "../../components/SurnameInput.js";
 import {MailInput} from "../../components/MailInput.js";
@@ -10,11 +11,14 @@ import {AssistantRadioButton} from "../../components/AssistantRadioButton.js";
 import {GuestRadioButton} from "../../components/GuestRadioButton.js";
 import {AddressInput} from "../../components/AddressInput.js";
 import {SubmitButton} from "../../components/SubmitButton.js";
+import {Memento} from "../memento/Memento.js";
 
 export class PersonMediator implements Mediator {
+    private mementos: Memento[] = [];
     private formDocument: FormDocument;
 
-    constructor(private nameInput: NameInput,
+    constructor(private undoButton: UndoButton,
+                private nameInput: NameInput,
                 private surnameInput: SurnameInput,
                 private mailInput: MailInput,
                 private phoneNumberInput: PhoneNumberInput,
@@ -23,8 +27,9 @@ export class PersonMediator implements Mediator {
                 private guestRadioButton: GuestRadioButton,
                 private addressInput: AddressInput,
                 private submitButton: SubmitButton) {
-        this.formDocument =  new FormDocument();
+        this.formDocument = new FormDocument();
 
+        this.undoButton.setMediator(this);
         this.nameInput.setMediator(this);
         this.surnameInput.setMediator(this);
         this.mailInput.setMediator(this);
@@ -58,17 +63,22 @@ export class PersonMediator implements Mediator {
         }
 
         if (sender instanceof AdminRadioButton && event === 'change') {
+            this.backup();
+            this.eraseAllInputs();
             this.addressInput.hide();
             this.formDocument.changeToAdminState();
         }
 
         if (sender instanceof AssistantRadioButton && event === 'change') {
+            this.backup();
+            this.eraseAllInputs();
             this.addressInput.hide();
             this.formDocument.changeToAssistantState();
         }
 
         if (sender instanceof GuestRadioButton && event === 'change') {
-            this.addressInput.show();
+            this.backup();
+            this.eraseAllInputs();
             this.formDocument.changeToGuestState();
         }
 
@@ -76,6 +86,41 @@ export class PersonMediator implements Mediator {
             console.log(this.formDocument.sendForm())
         }
 
+        if (sender instanceof UndoButton && event === 'click') {
+            this.undo();
+        }
+
+    }
+
+    private backup(): void {
+        this.mementos.push(this.formDocument.save());
+    }
+
+    private undo(): void {
+        const memento = this.mementos.pop();
+        if (!memento) {
+            return;
+        }
+        this.formDocument.restore(memento);
+
+        this.nameInput.setValue(this.formDocument.getName())
+        this.surnameInput.setValue(this.formDocument.getSurname())
+        this.mailInput.setValue(this.formDocument.getMail())
+        this.addressInput.setValue(this.formDocument.getAddress())
+        this.phoneNumberInput.setValue(this.formDocument.getPhoneNumber())
+
+        this.adminRadioButton.setValue(this.formDocument.getState().getType())
+        this.assistantRadioButton.setValue(this.formDocument.getState().getType())
+        this.guestRadioButton.setValue(this.formDocument.getState().getType())
+
+    }
+
+    private eraseAllInputs(): void {
+        this.nameInput.setValue("")
+        this.surnameInput.setValue("")
+        this.mailInput.setValue("")
+        this.addressInput.setValue("")
+        this.phoneNumberInput.setValue("")
     }
 
 }

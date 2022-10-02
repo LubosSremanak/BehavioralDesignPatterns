@@ -26,5 +26,7 @@ export abstract class Component {
         (this.element as HTMLInputElement).style.display = 'block';
     }
 
+    public abstract setValue(value: string): void;
+
     public abstract getValue(): string;
 }

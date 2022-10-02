@@ -12,6 +12,10 @@ export class NameInput extends Component {
         this.mediator?.notify(this, 'input')
     }
 
+    public setValue(value: string): void {
+        this.inputElement.value = value
+    }
+
     public getValue(): string {
         return this.inputElement.value;
     }

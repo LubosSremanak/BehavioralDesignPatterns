@@ -12,6 +12,10 @@ export class SubmitButton extends Component {
         this.mediator?.notify(this, 'click')
     }
 
+    public setValue(value: string): void {
+        this.inputElement.textContent = value
+    }
+
     public getValue(): string {
         return this.inputElement.value;
     }

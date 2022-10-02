@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="feat: add empty show and hide component methods" />
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
+      <change afterPath="$PROJECT_DIR$/components/UndoButton.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AddressInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AddressInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AdminRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AdminRadioButton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AssistantRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AssistantRadioButton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GuestRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/GuestRadioButton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MailInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/MailInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NameInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/NameInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PhoneNumberInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhoneNumberInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SubmitButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubmitButton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SurnameInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SurnameInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/state/AdminState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AdminState.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/state/AssistantState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AssistantState.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/state/GuestState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/GuestState.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/state/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/State.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,18 +45,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2FUZAEfMgALeGMjlECx13gSClXW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "/Users/tomaspopik/PhpstormProjects/BehavioralDesignPatterns/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\staso\\PhpstormProjects\\BehavioralDesignPatterns\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components" />
@@ -51,6 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664548477938</updated>
       <workItem from="1664548480436" duration="3933000" />
+      <workItem from="1664728665704" duration="7467000" />
+      <workItem from="1664736309453" duration="5460000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
       <created>1664553683118</created>
@@ -150,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664574967052</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="chore: :(">
+      <created>1664741550700</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664741550700</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +205,22 @@
         <option value="$PROJECT_DIR$/components/AdminRadioButton.js" />
         <option value="$PROJECT_DIR$/components/SubmitButton.js" />
         <option value="$PROJECT_DIR$/components/AddressInput.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/components/SurnameInput.js" />
+        <option value="$PROJECT_DIR$/components/PhoneNumberInput.js" />
+        <option value="$PROJECT_DIR$/components/NameInput.js" />
+        <option value="$PROJECT_DIR$/components/Component.js" />
+        <option value="$PROJECT_DIR$/components/MailInput.js" />
+        <option value="$PROJECT_DIR$/shared/services/renderer.js" />
+        <option value="$PROJECT_DIR$/shared/services/logger.js" />
+        <option value="$PROJECT_DIR$/patterns/shared/FormDocument.js" />
+        <option value="$PROJECT_DIR$/patterns/shared/Context.js" />
+        <option value="$PROJECT_DIR$/patterns/mediator/PersonMediator.js" />
+        <option value="$PROJECT_DIR$/patterns/mediator/Mediator.js" />
+        <option value="$PROJECT_DIR$/patterns/observer/Observer.js" />
+        <option value="$PROJECT_DIR$/patterns/memento/Memento.js" />
+        <option value="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.js" />
+        <option value="$PROJECT_DIR$/components/UndoButton.js" />
       </list>
     </option>
   </component>
@@ -188,11 +243,11 @@
     <MESSAGE value="feat: add action on FormDocument" />
     <MESSAGE value="feat: add event listener for NameInput" />
     <MESSAGE value="fix: change element id" />
-    <MESSAGE value="chore: :(" />
     <MESSAGE value="feat: add radio buttons for change user type + submit button + address input" />
     <MESSAGE value="feat: add event listener for input components" />
     <MESSAGE value="refactor: change to camel case name" />
     <MESSAGE value="feat: add empty show and hide component methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add empty show and hide component methods" />
+    <MESSAGE value="chore: :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: :(" />
   </component>
 </project>
