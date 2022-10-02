@@ -19,4 +19,8 @@ export class AssistantState implements State {
     public sendForm = (): string => {
         return `Your form ${this.formDocument.toString()} was sent to Admin.`
     }
+
+    getType(): string {
+        return "assistant";
+    }
 }

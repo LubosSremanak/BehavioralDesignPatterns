@@ -19,4 +19,9 @@ export class AdminState implements State {
     public sendForm = (): string => {
         return `Your form ${this.formDocument.toString()} was saved to database.`;
     }
+
+    getType(): string {
+        return "admin";
+    }
+
 }
