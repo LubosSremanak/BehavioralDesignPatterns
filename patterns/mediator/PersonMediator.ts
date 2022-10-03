@@ -84,7 +84,7 @@ export class PersonMediator implements Mediator {
         }
 
         if (sender instanceof SubmitButton && event === 'click') {
-            console.log(this.formDocument.sendForm())
+            alert(this.formDocument.sendForm())
         }
 
         if (sender instanceof UndoButton && event === 'click') {
