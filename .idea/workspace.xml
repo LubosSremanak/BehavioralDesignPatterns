@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
-      <change afterPath="$PROJECT_DIR$/components/UndoButton.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AddressInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AddressInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AdminRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AdminRadioButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AssistantRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AssistantRadioButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GuestRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/GuestRadioButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MailInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/MailInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NameInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/NameInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PhoneNumberInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhoneNumberInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SubmitButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubmitButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SurnameInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SurnameInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/memento/Memento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/AdminState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AdminState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/AssistantState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AssistantState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/GuestState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/GuestState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/State.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -82,7 +69,8 @@
       <updated>1664548477938</updated>
       <workItem from="1664548480436" duration="3933000" />
       <workItem from="1664728665704" duration="7467000" />
-      <workItem from="1664736309453" duration="5460000" />
+      <workItem from="1664736309453" duration="6947000" />
+      <workItem from="1664793614351" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
       <created>1664553683118</created>
@@ -189,7 +177,42 @@
       <option name="project" value="LOCAL" />
       <updated>1664741550700</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: add memento">
+      <created>1664742049338</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742049338</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add undo and backup for memento">
+      <created>1664742296656</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742296656</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: set values in html components">
+      <created>1664742383605</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742383605</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: get state type for radio button change">
+      <created>1664742408551</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742408551</updated>
+    </task>
+    <task id="LOCAL-00020" summary="chore: :(">
+      <created>1664742417138</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742417138</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +270,10 @@
     <MESSAGE value="feat: add event listener for input components" />
     <MESSAGE value="refactor: change to camel case name" />
     <MESSAGE value="feat: add empty show and hide component methods" />
+    <MESSAGE value="feat: add memento" />
+    <MESSAGE value="feat: add undo and backup for memento" />
+    <MESSAGE value="feat: set values in html components" />
+    <MESSAGE value="feat: get state type for radio button change" />
     <MESSAGE value="chore: :(" />
     <option name="LAST_COMMIT_MESSAGE" value="chore: :(" />
   </component>
