@@ -65,25 +65,26 @@ export class PersonMediator implements Mediator {
         if (sender instanceof AdminRadioButton && event === 'change') {
             this.backup();
             this.eraseAllInputs();
-            this.addressInput.hide();
+            this.showOrHideAddressInput();
             this.formDocument.changeToAdminState();
         }
 
         if (sender instanceof AssistantRadioButton && event === 'change') {
             this.backup();
             this.eraseAllInputs();
-            this.addressInput.hide();
+            this.showOrHideAddressInput();
             this.formDocument.changeToAssistantState();
         }
 
         if (sender instanceof GuestRadioButton && event === 'change') {
             this.backup();
             this.eraseAllInputs();
+            this.showOrHideAddressInput();
             this.formDocument.changeToGuestState();
         }
 
         if (sender instanceof SubmitButton && event === 'click') {
-            console.log(this.formDocument.sendForm())
+            alert(this.formDocument.sendForm())
         }
 
         if (sender instanceof UndoButton && event === 'click') {
@@ -113,6 +114,7 @@ export class PersonMediator implements Mediator {
         this.assistantRadioButton.setValue(this.formDocument.getState().getType())
         this.guestRadioButton.setValue(this.formDocument.getState().getType())
 
+        this.showOrHideAddressInput()
     }
 
     private eraseAllInputs(): void {
@@ -121,6 +123,15 @@ export class PersonMediator implements Mediator {
         this.mailInput.setValue("")
         this.addressInput.setValue("")
         this.phoneNumberInput.setValue("")
+    }
+
+    private showOrHideAddressInput(): void {
+        if (this.guestRadioButton.isChecked()) {
+            this.addressInput.show();
+        }
+        else {
+            this.addressInput.hide();
+        }
     }
 
 }
