@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="feat: add empty show and hide component methods" />
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GuestRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/GuestRadioButton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FUZAEfMgALeGMjlECx13gSClXW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,7 +43,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/Users/tomaspopik/PhpstormProjects/BehavioralDesignPatterns/node_modules/typescript/lib"
   }
 }]]></component>
@@ -51,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664548477938</updated>
       <workItem from="1664548480436" duration="3933000" />
+      <workItem from="1664742849013" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
       <created>1664553683118</created>
@@ -150,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664574967052</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="chore: :(">
+      <created>1664742972682</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742972682</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +189,9 @@
         <option value="$PROJECT_DIR$/components/AdminRadioButton.js" />
         <option value="$PROJECT_DIR$/components/SubmitButton.js" />
         <option value="$PROJECT_DIR$/components/AddressInput.js" />
+        <option value="$PROJECT_DIR$/components/UndoButton.js" />
+        <option value="$PROJECT_DIR$/patterns/memento/Memento.js" />
+        <option value="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.js" />
       </list>
     </option>
   </component>
@@ -188,11 +214,11 @@
     <MESSAGE value="feat: add action on FormDocument" />
     <MESSAGE value="feat: add event listener for NameInput" />
     <MESSAGE value="fix: change element id" />
-    <MESSAGE value="chore: :(" />
     <MESSAGE value="feat: add radio buttons for change user type + submit button + address input" />
     <MESSAGE value="feat: add event listener for input components" />
     <MESSAGE value="refactor: change to camel case name" />
     <MESSAGE value="feat: add empty show and hide component methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add empty show and hide component methods" />
+    <MESSAGE value="chore: :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: :(" />
   </component>
 </project>

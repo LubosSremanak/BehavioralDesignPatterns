@@ -22,4 +22,7 @@ export class GuestRadioButton extends Component {
         return this.inputElement.value;
     }
 
+    public isChecked(): boolean {
+        return this.inputElement.checked
+    }
 }
