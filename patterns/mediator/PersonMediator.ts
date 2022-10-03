@@ -118,11 +118,11 @@ export class PersonMediator implements Mediator {
     }
 
     private eraseAllInputs(): void {
-        this.nameInput.setValue("")
-        this.surnameInput.setValue("")
-        this.mailInput.setValue("")
-        this.addressInput.setValue("")
-        this.phoneNumberInput.setValue("")
+        this.nameInput.empty()
+        this.surnameInput.empty()
+        this.mailInput.empty()
+        this.addressInput.empty()
+        this.phoneNumberInput.empty()
     }
 
     private showOrHideAddressInput(): void {
