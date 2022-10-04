@@ -104,25 +104,25 @@ export class PersonMediator implements Mediator {
         }
         this.formDocument.restore(memento);
 
-        this.nameInput.setValue(this.formDocument.getName())
-        this.surnameInput.setValue(this.formDocument.getSurname())
-        this.mailInput.setValue(this.formDocument.getMail())
-        this.addressInput.setValue(this.formDocument.getAddress())
-        this.phoneNumberInput.setValue(this.formDocument.getPhoneNumber())
+        this.nameInput.setValue(this.formDocument.getName());
+        this.surnameInput.setValue(this.formDocument.getSurname());
+        this.mailInput.setValue(this.formDocument.getMail());
+        this.addressInput.setValue(this.formDocument.getAddress());
+        this.phoneNumberInput.setValue(this.formDocument.getPhoneNumber());
 
-        this.adminRadioButton.setValue(this.formDocument.getState().getType())
-        this.assistantRadioButton.setValue(this.formDocument.getState().getType())
-        this.guestRadioButton.setValue(this.formDocument.getState().getType())
+        this.adminRadioButton.setValue(this.formDocument.getState().getType());
+        this.assistantRadioButton.setValue(this.formDocument.getState().getType());
+        this.guestRadioButton.setValue(this.formDocument.getState().getType());
 
         this.showOrHideAddressInput()
     }
 
     private eraseAllInputs(): void {
-        this.nameInput.setValue("")
-        this.surnameInput.setValue("")
-        this.mailInput.setValue("")
-        this.addressInput.setValue("")
-        this.phoneNumberInput.setValue("")
+        this.nameInput.setValue("");
+        this.surnameInput.setValue("");
+        this.mailInput.setValue("");
+        this.addressInput.setValue("");
+        this.phoneNumberInput.setValue("");
     }
 
     private showOrHideAddressInput(): void {

@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
-      <change afterPath="$PROJECT_DIR$/components/UndoButton.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AddressInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AddressInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AdminRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AdminRadioButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AssistantRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AssistantRadioButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GuestRadioButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/GuestRadioButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MailInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/MailInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NameInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/NameInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PhoneNumberInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhoneNumberInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SubmitButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubmitButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SurnameInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/SurnameInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/memento/Memento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/AdminState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AdminState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/AssistantState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/AssistantState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/GuestState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/GuestState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/state/State.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/state/State.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
