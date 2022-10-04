@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="fix: use empty() function to erase inputs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/memento/Memento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +26,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,11 +39,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/tomaspopik/PhpstormProjects/BehavioralDesignPatterns/node_modules/typescript/lib&quot;
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\staso\\PhpstormProjects\\BehavioralDesignPatterns\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664548477938</updated>
       <workItem from="1664548480436" duration="3933000" />
-      <workItem from="1664742849013" duration="1141000" />
+      <workItem from="1664728665704" duration="7467000" />
+      <workItem from="1664736309453" duration="5460000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
       <created>1664553683118</created>
@@ -165,11 +166,11 @@
       <updated>1664574967052</updated>
     </task>
     <task id="LOCAL-00015" summary="chore: :(">
-      <created>1664742972682</created>
+      <created>1664741550700</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1664742972682</updated>
+      <updated>1664741550700</updated>
     </task>
     <task id="LOCAL-00016" summary="fix: set sender Component type">
       <created>1664806507612</created>
@@ -201,9 +202,22 @@
         <option value="$PROJECT_DIR$/components/AdminRadioButton.js" />
         <option value="$PROJECT_DIR$/components/SubmitButton.js" />
         <option value="$PROJECT_DIR$/components/AddressInput.js" />
-        <option value="$PROJECT_DIR$/components/UndoButton.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/components/SurnameInput.js" />
+        <option value="$PROJECT_DIR$/components/PhoneNumberInput.js" />
+        <option value="$PROJECT_DIR$/components/NameInput.js" />
+        <option value="$PROJECT_DIR$/components/Component.js" />
+        <option value="$PROJECT_DIR$/components/MailInput.js" />
+        <option value="$PROJECT_DIR$/shared/services/renderer.js" />
+        <option value="$PROJECT_DIR$/shared/services/logger.js" />
+        <option value="$PROJECT_DIR$/patterns/shared/FormDocument.js" />
+        <option value="$PROJECT_DIR$/patterns/shared/Context.js" />
+        <option value="$PROJECT_DIR$/patterns/mediator/PersonMediator.js" />
+        <option value="$PROJECT_DIR$/patterns/mediator/Mediator.js" />
+        <option value="$PROJECT_DIR$/patterns/observer/Observer.js" />
         <option value="$PROJECT_DIR$/patterns/memento/Memento.js" />
         <option value="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.js" />
+        <option value="$PROJECT_DIR$/components/UndoButton.js" />
       </list>
     </option>
   </component>

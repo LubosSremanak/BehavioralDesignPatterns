@@ -129,7 +129,7 @@ export class FormDocument implements Context {
     }
 
     public restore(memento: Memento): void {
-        const newState: State = memento.getState();
+        const newState: State = (memento as FormDocumentMemento).getState();
         const newFormDocument: FormDocument = newState.getFormDocument();
 
         this.setName(newFormDocument.getName())

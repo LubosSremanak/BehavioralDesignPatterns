@@ -95,6 +95,7 @@ export class PersonMediator implements Mediator {
 
     private backup(): void {
         this.mementos.push(this.formDocument.save());
+        this.showFormDocumentHistory();
     }
 
     private undo(): void {
@@ -104,25 +105,34 @@ export class PersonMediator implements Mediator {
         }
         this.formDocument.restore(memento);
 
-        this.nameInput.setValue(this.formDocument.getName())
-        this.surnameInput.setValue(this.formDocument.getSurname())
-        this.mailInput.setValue(this.formDocument.getMail())
-        this.addressInput.setValue(this.formDocument.getAddress())
-        this.phoneNumberInput.setValue(this.formDocument.getPhoneNumber())
+        this.nameInput.setValue(this.formDocument.getName());
+        this.surnameInput.setValue(this.formDocument.getSurname());
+        this.mailInput.setValue(this.formDocument.getMail());
+        this.addressInput.setValue(this.formDocument.getAddress());
+        this.phoneNumberInput.setValue(this.formDocument.getPhoneNumber());
 
-        this.adminRadioButton.setValue(this.formDocument.getState().getType())
-        this.assistantRadioButton.setValue(this.formDocument.getState().getType())
-        this.guestRadioButton.setValue(this.formDocument.getState().getType())
+        this.adminRadioButton.setValue(this.formDocument.getState().getType());
+        this.assistantRadioButton.setValue(this.formDocument.getState().getType());
+        this.guestRadioButton.setValue(this.formDocument.getState().getType());
 
         this.showOrHideAddressInput()
+        this.showFormDocumentHistory();
+    }
+
+    private showFormDocumentHistory(): void {
+        console.log("current history");
+        for (let mementoElement of this.mementos) {
+            console.log(mementoElement.getName());
+        }
+        console.log("\n");
     }
 
     private eraseAllInputs(): void {
-        this.nameInput.empty()
-        this.surnameInput.empty()
-        this.mailInput.empty()
-        this.addressInput.empty()
-        this.phoneNumberInput.empty()
+        this.nameInput.empty();
+        this.surnameInput.empty();
+        this.mailInput.empty();
+        this.addressInput.empty();
+        this.phoneNumberInput.empty();
     }
 
     private showOrHideAddressInput(): void {
