@@ -95,6 +95,7 @@ export class PersonMediator implements Mediator {
 
     private backup(): void {
         this.mementos.push(this.formDocument.save());
+        this.showFormDocumentHistory();
     }
 
     private undo(): void {
@@ -115,6 +116,15 @@ export class PersonMediator implements Mediator {
         this.guestRadioButton.setValue(this.formDocument.getState().getType());
 
         this.showOrHideAddressInput()
+        this.showFormDocumentHistory();
+    }
+
+    private showFormDocumentHistory(): void {
+        console.log("current history");
+        for (let mementoElement of this.mementos) {
+            console.log(mementoElement.getName());
+        }
+        console.log("\n");
     }
 
     private eraseAllInputs(): void {
