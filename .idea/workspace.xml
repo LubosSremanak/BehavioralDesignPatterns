@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="fix: use empty() function to erase inputs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/memento/Memento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
@@ -172,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664741550700</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix: set sender Component type">
+      <created>1664806507612</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664806507612</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: use empty() function to erase inputs">
+      <created>1664807638044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664807638044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +245,8 @@
     <MESSAGE value="refactor: change to camel case name" />
     <MESSAGE value="feat: add empty show and hide component methods" />
     <MESSAGE value="chore: :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: :(" />
+    <MESSAGE value="fix: set sender Component type" />
+    <MESSAGE value="fix: use empty() function to erase inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: use empty() function to erase inputs" />
   </component>
 </project>
