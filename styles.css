@@ -6,10 +6,10 @@ body {
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    background: rgba(247, 248, 252);
 }
 
 .main-container {
-    background: rgba(247, 248, 252);
     padding: 20px 50px;
 }
 
@@ -18,6 +18,6 @@ body {
     max-width: 800px;
 }
 
-#message {
-    width: 100px;
+.w-150-px {
+    width: 150px;
 }
