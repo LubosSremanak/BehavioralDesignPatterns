@@ -1,12 +1,14 @@
-<h1 style="margin-bottom: 0" align="center">Návrhové vzory: Behavioral patterns</h1>
-<h2 style="margin-top: 0" align="center">(Mediator, Observer, State, Memento)</h2>
+<h1 align="center">
+Návrhové vzory: Behavioral patterns
+<br>
+(Mediator, Observer, State, Memento)
+</h1>
 
 <h3 align="center">
 <a href="">Prezentácia</a>
 <br>
 <a href="">Dokumentácia</a>
 </h3>
-
 
 Na spustenie našej aplikácie je potrebné urobiť niekoľko krokov. Z nášho github repozitára si klonneme alebo stiahneme 
 zdrojový kód lokálne do počítača.
