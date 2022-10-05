@@ -1,3 +1,5 @@
+import {Component} from "../../components/Component.js";
+
 export interface Mediator {
-    notify(sender: object, event: string): void;
+    notify(sender: Component, event: string): void;
 }
