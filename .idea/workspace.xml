@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="feat: show history for memento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/memento/Memento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
       <workItem from="1664548480436" duration="3933000" />
       <workItem from="1664728665704" duration="7467000" />
       <workItem from="1664736309453" duration="5460000" />
+      <workItem from="1664980882773" duration="2754000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
       <created>1664553683118</created>
@@ -172,7 +171,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664741550700</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="refactor: add semicolons">
+      <created>1664907942872</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664907942872</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactor: make state hidden for Caretaker">
+      <created>1664907987521</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664907987521</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: show history for memento">
+      <created>1664908021491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664908021491</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +251,9 @@
     <MESSAGE value="refactor: change to camel case name" />
     <MESSAGE value="feat: add empty show and hide component methods" />
     <MESSAGE value="chore: :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: :(" />
+    <MESSAGE value="refactor: add semicolons" />
+    <MESSAGE value="refactor: make state hidden for Caretaker" />
+    <MESSAGE value="feat: show history for memento" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: show history for memento" />
   </component>
 </project>
