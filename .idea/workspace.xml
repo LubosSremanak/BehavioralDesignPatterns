@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :/">
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="fix: use empty() function to erase inputs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/memento/Memento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
@@ -25,11 +26,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -70,7 +66,6 @@
       <workItem from="1664548480436" duration="3933000" />
       <workItem from="1664728665704" duration="7467000" />
       <workItem from="1664736309453" duration="5460000" />
-      <workItem from="1665003741285" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
       <created>1664553683118</created>
@@ -177,14 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664741550700</updated>
     </task>
-    <task id="LOCAL-00016" summary="chore: :/">
-      <created>1665003762826</created>
+    <task id="LOCAL-00016" summary="fix: set sender Component type">
+      <created>1664806507612</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1665003762826</updated>
+      <updated>1664806507612</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix: use empty() function to erase inputs">
+      <created>1664807638044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664807638044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,10 +214,10 @@
         <option value="$PROJECT_DIR$/patterns/shared/Context.js" />
         <option value="$PROJECT_DIR$/patterns/mediator/PersonMediator.js" />
         <option value="$PROJECT_DIR$/patterns/mediator/Mediator.js" />
+        <option value="$PROJECT_DIR$/patterns/observer/Observer.js" />
         <option value="$PROJECT_DIR$/patterns/memento/Memento.js" />
         <option value="$PROJECT_DIR$/patterns/memento/FormDocumentMemento.js" />
         <option value="$PROJECT_DIR$/components/UndoButton.js" />
-        <option value="$PROJECT_DIR$/patterns/observer/Observer.js" />
       </list>
     </option>
   </component>
@@ -243,7 +245,8 @@
     <MESSAGE value="refactor: change to camel case name" />
     <MESSAGE value="feat: add empty show and hide component methods" />
     <MESSAGE value="chore: :(" />
-    <MESSAGE value="chore: :/" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: :/" />
+    <MESSAGE value="fix: set sender Component type" />
+    <MESSAGE value="fix: use empty() function to erase inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: use empty() function to erase inputs" />
   </component>
 </project>

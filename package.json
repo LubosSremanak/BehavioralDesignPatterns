@@ -9,6 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "serve": "tsc -w",
     "build": "tsc-esm"
   },
   "author": "",
