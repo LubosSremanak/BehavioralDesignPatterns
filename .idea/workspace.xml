@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="fix: use empty() function to erase inputs">
+    <list default="true" id="fdddaeff-b275-4eff-a3f9-e07ba3beb699" name="Changes" comment="chore: :(">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/mediator/PersonMediator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/memento/Memento.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/memento/Memento.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/shared/FormDocument.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +39,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\staso\\PhpstormProjects\\BehavioralDesignPatterns\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/tomaspopik/PhpstormProjects/BehavioralDesignPatterns/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -66,6 +65,7 @@
       <workItem from="1664548480436" duration="3933000" />
       <workItem from="1664728665704" duration="7467000" />
       <workItem from="1664736309453" duration="5460000" />
+      <workItem from="1664986810404" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: move Context to shared folder">
       <created>1664553683118</created>
