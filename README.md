@@ -30,3 +30,8 @@ teda lokálne u vás v počítači.
 <p align="center">
     <img src="uml-final-app.png" alt="UML class diagram aplikácie">
 </p>
+
+<h2 style="text-align: center; margin-top: 0">Screenshot aplikácie</h2>
+<p align="center">
+    <img src="app-image.png" alt="Screenshot aplikácie">
+</p>
