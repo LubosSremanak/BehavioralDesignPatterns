@@ -19,10 +19,15 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<div class="main-container d-flex justify-content-center w-100">
-    <div class="form shadow d-flex w-100 rounded p-5">
+<div class="main-container d-flex  justify-content-center w-100">
+    <div class="form-wrapper shadow d-flex flex-column w-100 rounded p-5 gap-5">
+        <div class="d-flex justify-content-center align-items-center pb-5 border-bottom">
+            <div class="d-flex flex-column gap-4 w-auto align-items-center rounded p-4">
+                <span class="text-center text-success">Currently online users: <span id="message">0</span></span>
+                <button class="btn btn-outline-dark" id="subject">Subscribe</button>
+            </div>
+        </div>
         <div id="form" class="row g-3">
-
             <div class="col-12 text-end">
                 <button id="undo-button" type="submit" class="btn btn-warning">Undo state</button>
             </div>

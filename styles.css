@@ -13,7 +13,11 @@ body {
     padding: 20px 50px;
 }
 
-.main-container .form {
+.main-container .form-wrapper {
     background: white;
     max-width: 800px;
+}
+
+#message {
+    width: 100px;
 }
