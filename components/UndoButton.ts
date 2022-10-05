@@ -5,10 +5,10 @@ export class UndoButton extends Component {
     constructor(private inputElement: HTMLInputElement) {
         super(inputElement);
 
-        inputElement.addEventListener('click', this.changeInput)
+        inputElement.addEventListener('click', this.clickButton)
     }
 
-    private changeInput = (): void => {
+    private clickButton = (): void => {
         this.mediator?.notify(this, 'click')
     }
 

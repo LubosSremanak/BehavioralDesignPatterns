@@ -6,14 +6,18 @@ body {
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    background: rgba(247, 248, 252);
 }
 
 .main-container {
-    background: rgba(247, 248, 252);
     padding: 20px 50px;
 }
 
-.main-container .form {
+.main-container .form-wrapper {
     background: white;
     max-width: 800px;
+}
+
+.w-150-px {
+    width: 150px;
 }

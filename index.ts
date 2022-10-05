@@ -10,6 +10,7 @@ import {AssistantRadioButton} from "./components/AssistantRadioButton.js";
 import {GuestRadioButton} from "./components/GuestRadioButton.js";
 import {AddressInput} from "./components/AddressInput.js";
 import {SubmitButton} from "./components/SubmitButton.js";
+import {Message} from "./components/Message.js";
 
 const renderer = new Renderer(null, null, document);
 
@@ -23,6 +24,10 @@ const assistantRadioButton = new AssistantRadioButton(renderer.get('assistant-ra
 const guestRadioButton = new GuestRadioButton(renderer.get('guest-radio-option') as HTMLInputElement);
 const addressInput = new AddressInput(renderer.get('address') as HTMLInputElement);
 const submitButton = new SubmitButton(renderer.get('submit-button') as HTMLInputElement);
+const messageSpan = renderer.get('message') as HTMLSpanElement;
+const subjectButton = renderer.get('subject') as HTMLButtonElement;
+const message = new Message(messageSpan as HTMLSpanElement, subjectButton as HTMLButtonElement);
+
 
 const mediator = new PersonMediator(
     undoButton,
