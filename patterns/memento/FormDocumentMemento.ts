@@ -14,7 +14,7 @@ export class FormDocumentMemento implements Memento {
     }
 
     public getName(): string {
-        return `${this.date}`;
+        return `${this.state.getType()}_${this.getDate()}`;
     }
 
     public getDate(): string {
