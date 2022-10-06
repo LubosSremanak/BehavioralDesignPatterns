@@ -5,9 +5,9 @@ Návrhové vzory: Behavioral patterns
 </h1>
 
 <h3 align="center">
-<a href="">Prezentácia</a>
+<a href="Prezentácia.pdf">Prezentácia</a>
 <br>
-<a href="">Dokumentácia</a>
+<a href="Dokumentácia.pdf">Dokumentácia</a>
 </h3>
 
 Na spustenie našej aplikácie je potrebné urobiť niekoľko krokov. Z nášho github repozitára si klonneme alebo stiahneme 
